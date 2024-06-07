@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { ExploreJobsBtn } from '../ExploreJobsBtn/ExploreJobsBtn';
+import { ExploreJobsBtn } from '../ExploreJobsBtn';
+
 
 const Hero = () => {
   return (

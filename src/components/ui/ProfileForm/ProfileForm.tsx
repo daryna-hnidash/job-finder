@@ -27,7 +27,7 @@ interface FormValues {
   about: string;
 }
 
-const ProfileForm = () => {
+export const ProfileForm = () => {
   const dispatch = useDispatch();
 
   return (
@@ -139,5 +139,3 @@ const ProfileForm = () => {
     </div>
   );
 };
-
-export default ProfileForm;

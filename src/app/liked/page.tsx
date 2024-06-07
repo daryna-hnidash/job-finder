@@ -1,6 +1,6 @@
 'use client';
 
-import Catalog from '@/components/ui/Catalog/Catalog';
+import { Catalog } from '@/components/ui/Catalog';
 import { RootState } from '@/globalRedux/store';
 import { useSelector } from 'react-redux';
 

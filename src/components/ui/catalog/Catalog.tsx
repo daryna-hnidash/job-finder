@@ -1,12 +1,12 @@
 import { IJob } from '@/types/job.interface';
 import React from 'react';
-import { JobCard } from '../JobCard/JobCard';
+import { JobCard } from '../JobCard';
 
 type Props = {
   jobs: IJob[];
 };
 
-const Catalog: React.FC<Props> = ({ jobs }) => {
+export const Catalog: React.FC<Props> = ({ jobs }) => {
   return (
     <div className="grid gap-10 lg:grid-cols-3">
       {jobs.map((item) => (
@@ -17,5 +17,3 @@ const Catalog: React.FC<Props> = ({ jobs }) => {
     </div>
   );
 };
-
-export default Catalog;

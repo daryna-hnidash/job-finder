@@ -8,9 +8,7 @@ import classNames from 'classnames';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/globalRedux/store';
 
-type Props = {};
-
-const Navbar = (props: Props) => {
+export const Navbar = () => {
   const pathname = usePathname();
   const { user } = useSelector((state: RootState) => state.user);
 
@@ -61,5 +59,3 @@ const Navbar = (props: Props) => {
     </header>
   );
 };
-
-export default Navbar;

@@ -5,7 +5,7 @@ import { BsGeoAlt } from 'react-icons/bs';
 import { FiArrowUpRight } from 'react-icons/fi';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/globalRedux/store';
-import { LikeButton } from '@/components/ui/LikeButton/LikeButton';
+import { LikeButton } from '@/components/ui/LikeButton';
 
 export default function Page() {
   const job = useSelector((state: RootState) => state.currentJob.currentJob);

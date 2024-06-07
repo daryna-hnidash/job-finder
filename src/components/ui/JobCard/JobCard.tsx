@@ -7,7 +7,7 @@ import { FaArrowCircleRight } from 'react-icons/fa';
 import { BsGeoAlt } from 'react-icons/bs';
 import { useDispatch } from 'react-redux';
 import { set } from '@/globalRedux/Features/currentJobSlice';
-import { LikeButton } from '../LikeButton/LikeButton';
+import { LikeButton } from '../LikeButton';
 
 interface Props {
   job: IJob;
