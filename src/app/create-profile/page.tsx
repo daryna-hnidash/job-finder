@@ -1,6 +1,6 @@
 'use client';
 
-import { ExploreJobsBtn } from '@/components/ui/ExploreJobsBtn';
+import { ExploreJobsBtn } from '../../components/ui/ExploreJobsBtn';
 import { ProfileForm } from '@/components/ui/ProfileForm';
 import { set as setUser } from '@/globalRedux/Features/userSlice';
 import { RootState } from '@/globalRedux/store';

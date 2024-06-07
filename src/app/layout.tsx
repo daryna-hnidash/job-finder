@@ -1,5 +1,5 @@
-import { Footer } from '@/components/ui/Footer';
-import { Navbar } from '@/components/ui/Navbar';
+import { Footer } from '../components/ui/Footer';
+import { Navbar } from '../components/ui/Navbar';
 import { Providers } from '@/globalRedux/provider';
 import type { Metadata } from 'next';
 import './globals.css';

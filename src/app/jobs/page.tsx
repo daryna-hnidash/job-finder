@@ -5,7 +5,7 @@ import { fetcher } from '@/utils/api';
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/globalRedux/store';
-import { Catalog } from '@/components/ui/Catalog';
+import { Catalog } from '../../components/ui/Catalog';
 
 export default function JobsPage() {
   const { user } = useSelector((state: RootState) => state.user);
